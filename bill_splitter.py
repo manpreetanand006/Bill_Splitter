@@ -2,7 +2,7 @@ import random
 friends_dict = {}
 number_of_friends = int(input("Enter the number of friends joining (including you):"))
 
-if number_of_friends <= 0:
+if number_of_friends <= 1:
       print("No one is joining for the party!")
 
 elif number_of_friends >=20:
